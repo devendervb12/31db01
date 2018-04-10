@@ -2,8 +2,8 @@
 		controllerName="zdb01.Page1" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="S-MAX TECHNOLGIES">
 		<content>
-	         <Text text="{/companyInfo/name}"/>
-	         <Input value="{/companyInfo/address}"/>
+	         <Text id="idtxt"/>
+	         <Input  id="idInput"/>
 		</content>
 	</Page>
 </core:View>

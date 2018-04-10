@@ -14,6 +14,13 @@ sap.ui.controller("zdb01.Page1", {
 		// set the model to Page1 view
 		this.getView().setModel(oModel);
 		
+		// lets do databinding
+		var oTxt = this.getView().byId("idtxt");
+	
+		oTxt.bindProperty("text", "/companyInfo/name");
+		
+		var oInput = this.getView().byId("idInput");
+		oInput.bindProperty("value", "/companyInfo/address");
 		
 	},
 
